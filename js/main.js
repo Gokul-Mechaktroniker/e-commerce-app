@@ -26,7 +26,7 @@ function displayProducts(){
         const imgBox = productCard.querySelector(".img-box");
         imgBox.addEventListener("click", () => {
             sessionStorage.setItem("selectedProduct", JSON.stringify(product));
-            window.location.href = "product-detail.html";
+            window.location.href = "products.html";
         });
     });
 }
